@@ -1,0 +1,21 @@
+.quote {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  bottom: 2vh;
+
+  animation: slidein 0.5s;
+  text-align: center;
+  h3 {
+    font-size: 2vh;
+    margin: 0 0;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 1.8vh;
+    margin: 0 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+@import '_animation';
+@import './default';
+@import './_clock';
+@import './music';
+@import './greeting';
+@import './todolist';
+@import './quote';
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+form {
+  max-width: 40vw;
+  margin: auto;
+  animation: slidein 0.5s;
+}
+
+input {
+  width: 40vw;
+  height: 8vh;
+
+  text-align: center;
+
+  border-color: whitesmoke;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  font-size: 3vh;
+
+  margin-bottom: 1vh;
+}
+
+input::placeholder {
+  color: lightgray;
+}

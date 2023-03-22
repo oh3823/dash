@@ -1,0 +1,23 @@
+.scroll {
+  width: 30vw;
+  height: 33vh;
+  overflow-y: scroll;
+
+  margin: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.todo {
+  animation: slidein 0.5s;
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
