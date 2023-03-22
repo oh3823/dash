@@ -1,7 +1,7 @@
 <br>
 <img src="./public/thumbnail.png" alt="Markdownify">
 <br>
-<h1><br>
+<h1>
 Dash
 </h1>
 <p>Dash is a Personal Start Page with To-Do List.</p>
