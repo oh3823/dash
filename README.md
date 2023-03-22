@@ -30,24 +30,24 @@ Features
 </h1>
 
 <div>
-<p>
+<li>
 You can play a song by pressing the play button in the top-right corner.
-</p>
-<p>
+</li>
+<li>
 Enter your username to enable To-Do List.
-</p>
-<p>
+</li>
+<li>
 Your username and To-Dos will be stored in browser's Local Storage.
-</p>
-<p>
+</li>
+<li>
 Click ✅ to delete To-Do.
-</p>
-<p>
+</li>
+<li>
 Application fetchs a random quote when browser reloads.
-</p>
-<p>
+</li>
+<li>
 Double click a greeting to clear browser's Local Storage.
-</p>
+</li>
 <div>
 
 <br>
