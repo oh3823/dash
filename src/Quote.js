@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 
 const Quote = () => {
-  const [quote, setQuote] = useState({ quote: '?', author: '!' });
+  const [quote, setQuote] = useState({
+    quote: 'Fetching Quote...',
+    author: '',
+  });
 
   useEffect(() => {
     const fetchQuote = async () =>
@@ -11,10 +14,10 @@ const Quote = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <h3>{quote.content}</h3>
       <h4>{quote.author}</h4>
-    </>
+    </div>
   );
 };
 

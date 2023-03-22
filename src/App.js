@@ -4,6 +4,7 @@ import Greeting from './Greeting';
 import Clock from './Clock';
 import Music from './Music';
 import Quote from './Quote';
+import Todo from './Todo';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Clock />
       <Greeting />
       <Music />
+      <Todo />
       <Quote />
     </>
   );
